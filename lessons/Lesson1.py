@@ -33,3 +33,5 @@ print(person_1)
 print(person_2)
 print(person_3)
 print(person_4)
+
+t = []
