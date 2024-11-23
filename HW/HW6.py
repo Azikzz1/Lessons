@@ -1,6 +1,7 @@
 # O(log n)
 def binary_search(arr, target):
-    left, right = 0, len(arr) - 1
+    left = 0
+    right =  len(arr) - 1
 
     while left <= right:
         mid = left + (right - left) // 2
@@ -16,7 +17,7 @@ def binary_search(arr, target):
 
 
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-target = 7
+target = 0
 result = binary_search(arr, target)
 if result != -1:
     print(f"Элемент найден на индексе {result}")
